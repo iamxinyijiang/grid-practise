@@ -22,7 +22,7 @@ body{
 .grid{
     display: grid;
     /*grid-template: 1fr 1fr 1fr 2fr 1fr 1fr 1fr 2fr 2fr 2fr 1fr/repeat(6 1fr);*/
-    grid-template-columns:auto;
+    grid-template-columns:repeat(6,1fr);
     grid-template-rows:auto;
     gap: 15px;
     width: 80%;
