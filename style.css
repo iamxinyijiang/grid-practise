@@ -32,14 +32,12 @@ body{
 }
 
 header{
-    display:grid; 
     grid-column-start: 1;
     grid-column-end: span 6;
     
 }
 
 .banner{
-    display:grid;
     grid-column-start: 1;
     grid-column-end: span 6;
     background-color: darkgoldenrod;
@@ -50,12 +48,10 @@ header{
 
 img{
     max-height: 18em;
-    display:grid;
     grid-column: 3/ span 2;
 }
 
 .about{
-    display:grid;
     grid-column-start: 1;
     grid-column-end: span 6;
     font-size: large;
@@ -68,80 +64,68 @@ img{
 }
 
 .one{
-    display:grid;
     grid-column-start: 1;
     grid-column-end: span 2;
 }
 
 .two{
-    display: grid;
     grid-column-start: 3;
     grid-column-end: span 2;
 }
 
 .three{
-    display: grid;
     grid-column-start: 5;
     grid-column-end: span 2;
 }
 
 .four{
-    display:grid;
     grid-column-start: 1;
     grid-column-end: span 2;
 }
 
 .five
 {
-    display: grid;
     grid-column-start: 3;
     grid-column-end: span 2;
 }
 
 .six
 {
-    display: grid;
     grid-column-start: 5;
     grid-column-end: span 2;
 }
 
 .saying{
-    display:grid;
     grid-column-start: 1;
     grid-column-end: span 6;
     background-color:antiquewhite;
 }
 
 .a{
-    display: grid;
     grid-column-start: 1;
     grid-column-end: span 3;
 
 }
 
 .b{
-    display: grid;
     grid-column-start: 4;
     grid-column-end: span 3;
 
 }
 
 .c{
-    display: grid;
     grid-column-start: 1;
     grid-column-end: span 3;
 
 }
 
 .d{
-    display: grid;
     grid-column-start: 4;
     grid-column-end: span 3;
 
 }
 
 footer{
-display:grid;
 grid-column-start: 1;
 grid-column-end: span 6;   
 }
